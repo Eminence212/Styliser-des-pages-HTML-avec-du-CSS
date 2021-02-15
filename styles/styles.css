@@ -1,0 +1,105 @@
+/* Eléments principaux de la page */
+body
+{
+    background-color: #c8c8c8;
+    font-family: Arial, sans-serif;
+    color:#181818;
+}
+
+/*Centrage de la page */
+#bloc_page{
+    width: 950px;
+    margin: auto;
+}
+ /* Titre de niveau 1 2 et liens*/
+ h1{
+     font-family: 'Times New Roman', Times, serif;
+     font-weight:bold;
+     text-align: center;
+     font-size: 3em;
+ }
+ h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+ }
+ h2,a{
+     color: #e3001f;
+     font-weight:bold;
+ }
+ h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+ }
+ /*Tableau*/
+ #tables {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  /*Bordure de td et th*/
+  #tables td, #tables th {
+   /* border: 1px solid #ddd;*/
+    padding: 8px;
+  }
+/*Titre du tableu*/
+  #tables th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color:#333333;
+    color: white;
+  }
+  /*Corps du tableau*/
+  #tables tr:nth-child(odd){
+      background-color: #dddddd;
+    }
+#tables tr:hover {
+        background-color:#999999;
+        cursor: pointer;
+    }
+    #imgs{
+        height: 600px;
+        width: 875px;
+    }
+ #figures{
+   border: 2px solid #e3001f;
+   border-radius: 10px;
+   background-color:#333333;
+   text-align: center;
+   color: white;
+   padding: 25px;
+   width: 900px;
+   margin-left: 0px;
+}
+figure figcaption{
+font-weight: bold;
+font-style: italic;
+}
+.retrait_paragraphe{
+
+    background-color: #b7b7b7;
+    padding: 20px;
+    width: 850px;
+    color:#671fb1;
+    line-height: 1.8; /*Espace entre les lignes*/
+    word-spacing: 5px; /*Espace entre les mots*/
+    margin: auto;
+    border: 2px dashed #671fb1;
+}
+.citations{
+    background-color: #b7b7b7;
+    padding: 20px;
+    color:#671fb1;
+    line-height: 1.8; /*Espace entre les lignes*/
+    word-spacing: 5px; /*Espace entre les mots*/
+    border-left:5px solid #671fb1;
+}
+.codess{
+    background-color: #b7b7b7;
+    padding: 20px;
+    color:#671fb1;
+    line-height: 1.8; /*Espace entre les lignes*/
+    word-spacing: 5px; /*Espace entre les mots*/
+    border-left:3px solid #671fb1;
+    height: 300px;
+    overflow: scroll;
+}
