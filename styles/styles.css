@@ -1,3 +1,14 @@
+
+@font-face {
+    font-family: 'Bitter-Bold';
+    src:url('Bitter-Bold.ttf.woff') format('woff'),
+        url('Bitter-Bold.ttf.svg#Bitter-Bold') format('svg'),
+        url('Bitter-Bold.ttf.eot'),
+        url('Bitter-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Eléments principaux de la page */
 body
 {
@@ -14,13 +25,13 @@ body
 
  /* Titre de niveau 1 2 et liens*/
  h1{
-     font-family: 'Times New Roman', Times, serif;
+     font-family: Bitter-Bold,'Times New Roman', Times, serif;
      font-weight:bold;
      text-align: center;
      font-size: 3em;
  }
  h2{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Bitter-Bold,'Times New Roman', Times, serif;
     font-size: 2em;
  }
  h2,a{
