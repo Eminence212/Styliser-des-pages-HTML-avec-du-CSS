@@ -11,6 +11,7 @@ body
     width: 950px;
     margin: auto;
 }
+
  /* Titre de niveau 1 2 et liens*/
  h1{
      font-family: 'Times New Roman', Times, serif;
@@ -23,12 +24,15 @@ body
     font-size: 2em;
  }
  h2,a{
-     color: #e3001f;
+     color: #cf0025;
      font-weight:bold;
  }
  h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5em;
+ }
+ p{
+     font-family: Arial, Helvetica, sans-serif;
  }
  /*Tableau*/
  #tables {
@@ -56,12 +60,14 @@ body
         background-color:#999999;
         cursor: pointer;
     }
+/*Taille des images*/
     #imgs{
         height: 600px;
         width: 875px;
     }
+    /*Mis en forme de la figure contenant l'image*/
  #figures{
-   border: 2px solid #e3001f;
+   border: 2px solid #cf0025;
    border-radius: 10px;
    background-color:#333333;
    text-align: center;
@@ -70,36 +76,40 @@ body
    width: 900px;
    margin-left: 0px;
 }
+/*Mise en forme de la legende de la figure*/
 figure figcaption{
 font-weight: bold;
 font-style: italic;
 }
+/*Mise en retrait d'un paragraphe*/
 .retrait_paragraphe{
 
     background-color: #b7b7b7;
     padding: 20px;
     width: 850px;
-    color:#671fb1;
+    color:#5144ae;
     line-height: 1.8; /*Espace entre les lignes*/
     word-spacing: 5px; /*Espace entre les mots*/
     margin: auto;
-    border: 2px dashed #671fb1;
+    border: 2px dashed #5144ae;
 }
+/*Mise en forme de la citation*/
 .citations{
     background-color: #b7b7b7;
     padding: 20px;
-    color:#671fb1;
+    color:#5144ae;
     line-height: 1.8; /*Espace entre les lignes*/
     word-spacing: 5px; /*Espace entre les mots*/
-    border-left:5px solid #671fb1;
+    border-left:5px solid #5144ae;
 }
+/*Mise en forme de l'espace des codes HTML*/
 .codess{
     background-color: #b7b7b7;
     padding: 20px;
-    color:#671fb1;
+    color:#5144ae;
     line-height: 1.8; /*Espace entre les lignes*/
     word-spacing: 5px; /*Espace entre les mots*/
-    border-left:3px solid #671fb1;
+    border-left:3px solid #5144ae;
     height: 300px;
     overflow: scroll;
 }
