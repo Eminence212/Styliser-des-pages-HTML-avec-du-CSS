@@ -67,7 +67,7 @@ body
   #tables tr:nth-child(odd){
       background-color: #dddddd;
     }
-#tables tr:hover {
+#tables tbody tr:hover {
         background-color:#999999;
         cursor: pointer;
     }
